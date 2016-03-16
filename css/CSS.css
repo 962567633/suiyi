@@ -1,0 +1,71 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+main,
+div {
+	border: 1px solid #999;
+}
+
+main {
+	witdh: %100;
+	overflow: hidden;
+	background: #EEEEEE;
+	margin: 20px;
+	padding: 0 0px 20px 0;
+}
+
+main > .left {
+	float: left;
+	margin: 20px;
+	width: 150px;
+	background: #fff;
+	overflow: hidden;
+	padding: 20px;
+}
+
+main > .left > div {
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	background: #EEE;
+	float: left;
+	line-height: 80px;
+}
+
+main > .left >span {
+	display: block;
+	float: right;
+}
+
+main > .middle {
+	width: 66.5%;
+	height: 220px;
+	float: left;
+	margin-top: 20px;
+	background: #fff;
+	padding: 20px;
+	font-size: 14px;
+}
+
+main > .right {
+	width: 85px;
+	float: left;
+	overflow: hidden;
+	margin: 20px 0 0 20px;
+	background: #fff;
+	padding: 0 20px 20px 20px;
+}
+
+main > .right > ul > li {
+	list-style-type: none;
+	width: 80px;
+	height: 80px;
+	float: right;
+	border: 1px solid darkgrey;
+	background: #eee;
+	line-height: 80px;
+	text-align: center;
+	margin-top: 20px;
+}
